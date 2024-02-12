@@ -1,8 +1,8 @@
-package de.aittr.g_27_shop_project.controllers;
+package de.aittr.g_27_lesson_20_task_1.controllers;
 
-import de.aittr.g_27_shop_project.domain.jdbc.CommonCustomer;
-import de.aittr.g_27_shop_project.domain.interfaces.Customer;
-import de.aittr.g_27_shop_project.services.interfaces.CustomerService;
+import de.aittr.g_27_lesson_20_task_1.domain.jdbc.CommonCustomer;
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Customer;
+import de.aittr.g_27_lesson_20_task_1.services.interfaces.CustomerService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

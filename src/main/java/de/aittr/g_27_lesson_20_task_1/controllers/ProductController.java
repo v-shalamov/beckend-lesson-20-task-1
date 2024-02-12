@@ -1,9 +1,9 @@
-package de.aittr.g_27_shop_project.controllers;
+package de.aittr.g_27_lesson_20_task_1.controllers;
 
-import de.aittr.g_27_shop_project.domain.dto.ProductDto;
-import de.aittr.g_27_shop_project.exception_handling.Response;
-import de.aittr.g_27_shop_project.exception_handling.exceptions.FirstTestException;
-import de.aittr.g_27_shop_project.services.interfaces.ProductService;
+import de.aittr.g_27_lesson_20_task_1.domain.dto.ProductDto;
+import de.aittr.g_27_lesson_20_task_1.exception_handling.Response;
+import de.aittr.g_27_lesson_20_task_1.exception_handling.exceptions.FirstTestException;
+import de.aittr.g_27_lesson_20_task_1.services.interfaces.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

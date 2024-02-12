@@ -1,9 +1,9 @@
-package de.aittr.g_27_shop_project.services.mapping;
+package de.aittr.g_27_lesson_20_task_1.services.mapping;
 
-import de.aittr.g_27_shop_project.domain.dto.ProductDto;
-import de.aittr.g_27_shop_project.domain.interfaces.Product;
-import de.aittr.g_27_shop_project.domain.jdbc.CommonProduct;
-import de.aittr.g_27_shop_project.domain.jpa.JpaProduct;
+import de.aittr.g_27_lesson_20_task_1.domain.dto.ProductDto;
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Product;
+import de.aittr.g_27_lesson_20_task_1.domain.jdbc.CommonProduct;
+import de.aittr.g_27_lesson_20_task_1.domain.jpa.JpaProduct;
 import org.springframework.stereotype.Service;
 
 @Service

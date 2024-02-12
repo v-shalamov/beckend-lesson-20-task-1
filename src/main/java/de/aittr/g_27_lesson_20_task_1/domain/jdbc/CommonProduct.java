@@ -1,7 +1,7 @@
-package de.aittr.g_27_shop_project.domain.jdbc;
+package de.aittr.g_27_lesson_20_task_1.domain.jdbc;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import de.aittr.g_27_shop_project.domain.interfaces.Product;
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Product;
 
 import java.util.Objects;
 

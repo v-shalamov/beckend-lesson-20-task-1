@@ -1,7 +1,7 @@
-package de.aittr.g_27_shop_project.exception_handling;
+package de.aittr.g_27_lesson_20_task_1.exception_handling;
 
-import de.aittr.g_27_shop_project.exception_handling.exceptions.FourthTestException;
-import de.aittr.g_27_shop_project.exception_handling.exceptions.ThirdTestException;
+import de.aittr.g_27_lesson_20_task_1.exception_handling.exceptions.FourthTestException;
+import de.aittr.g_27_lesson_20_task_1.exception_handling.exceptions.ThirdTestException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

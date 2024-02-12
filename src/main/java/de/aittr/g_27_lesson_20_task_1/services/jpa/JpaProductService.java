@@ -1,20 +1,17 @@
-package de.aittr.g_27_shop_project.services.jpa;
+package de.aittr.g_27_lesson_20_task_1.services.jpa;
 
-import de.aittr.g_27_shop_project.domain.dto.ProductDto;
-import de.aittr.g_27_shop_project.domain.jpa.JpaProduct;
+import de.aittr.g_27_lesson_20_task_1.domain.dto.ProductDto;
+import de.aittr.g_27_lesson_20_task_1.domain.jpa.JpaProduct;
+import de.aittr.g_27_lesson_20_task_1.repositories.jpa.JpaProductRepository;
+import de.aittr.g_27_lesson_20_task_1.services.interfaces.ProductService;
+import de.aittr.g_27_lesson_20_task_1.services.mapping.ProductMappingService;
 import de.aittr.g_27_shop_project.exception_handling.exceptions.FourthTestException;
 import de.aittr.g_27_shop_project.exception_handling.exceptions.ThirdTestException;
-import de.aittr.g_27_shop_project.repositories.jpa.JpaProductRepository;
-import de.aittr.g_27_shop_project.services.interfaces.ProductService;
-import de.aittr.g_27_shop_project.services.mapping.ProductMappingService;
 import jakarta.transaction.Transactional;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
+import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class JpaProductService implements ProductService {

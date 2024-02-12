@@ -1,4 +1,4 @@
-package de.aittr.g_27_shop_project.domain.dto;
+package de.aittr.g_27_lesson_20_task_1.domain.dto;
 
 import java.util.Objects;
 

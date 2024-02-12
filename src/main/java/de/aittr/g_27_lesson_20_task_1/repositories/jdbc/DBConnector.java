@@ -1,4 +1,4 @@
-package de.aittr.g_27_shop_project.repositories.jdbc;
+package de.aittr.g_27_lesson_20_task_1.repositories.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

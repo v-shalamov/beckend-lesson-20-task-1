@@ -1,4 +1,4 @@
-package de.aittr.g_27_shop_project.exception_handling;
+package de.aittr.g_27_lesson_20_task_1.exception_handling;
 
 public class Response {
 

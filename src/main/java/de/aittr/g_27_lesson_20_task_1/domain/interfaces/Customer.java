@@ -1,4 +1,4 @@
-package de.aittr.g_27_shop_project.domain.interfaces;
+package de.aittr.g_27_lesson_20_task_1.domain.interfaces;
 
 public interface Customer {
 

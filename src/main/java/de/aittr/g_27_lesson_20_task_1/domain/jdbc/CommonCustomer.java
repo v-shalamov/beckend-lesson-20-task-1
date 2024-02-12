@@ -1,7 +1,7 @@
-package de.aittr.g_27_shop_project.domain.jdbc;
+package de.aittr.g_27_lesson_20_task_1.domain.jdbc;
 
-import de.aittr.g_27_shop_project.domain.interfaces.Cart;
-import de.aittr.g_27_shop_project.domain.interfaces.Customer;
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Cart;
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Customer;
 
 import java.util.Objects;
 

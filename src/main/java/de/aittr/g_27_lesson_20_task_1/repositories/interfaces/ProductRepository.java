@@ -1,6 +1,6 @@
-package de.aittr.g_27_shop_project.repositories.interfaces;
+package de.aittr.g_27_lesson_20_task_1.repositories.interfaces;
 
-import de.aittr.g_27_shop_project.domain.interfaces.Product;
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Product;
 
 import java.util.List;
 

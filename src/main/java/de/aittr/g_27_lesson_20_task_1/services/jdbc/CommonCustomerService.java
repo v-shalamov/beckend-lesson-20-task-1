@@ -1,8 +1,8 @@
-package de.aittr.g_27_shop_project.services.jdbc;
+package de.aittr.g_27_lesson_20_task_1.services.jdbc;
 
-import de.aittr.g_27_shop_project.domain.interfaces.Customer;
-import de.aittr.g_27_shop_project.repositories.interfaces.CustomerRepository;
-import de.aittr.g_27_shop_project.services.interfaces.CustomerService;
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Customer;
+import de.aittr.g_27_lesson_20_task_1.repositories.interfaces.CustomerRepository;
+import de.aittr.g_27_lesson_20_task_1.services.interfaces.CustomerService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

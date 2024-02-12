@@ -1,22 +1,21 @@
-package de.aittr.g_27_shop_project.repositories.jdbc;
+package de.aittr.g_27_lesson_20_task_1.repositories.jdbc;
 
-import de.aittr.g_27_shop_project.domain.jdbc.CommonCart;
-import de.aittr.g_27_shop_project.domain.jdbc.CommonCustomer;
-import de.aittr.g_27_shop_project.domain.jdbc.CommonProduct;
-import de.aittr.g_27_shop_project.domain.interfaces.Cart;
-import de.aittr.g_27_shop_project.domain.interfaces.Customer;
-import de.aittr.g_27_shop_project.domain.interfaces.Product;
-import de.aittr.g_27_shop_project.repositories.interfaces.CustomerRepository;
-import org.springframework.stereotype.Repository;
+import static de.aittr.g_27_lesson_20_task_1.repositories.jdbc.DBConnector.getConnection;
 
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Cart;
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Customer;
+import de.aittr.g_27_lesson_20_task_1.domain.interfaces.Product;
+import de.aittr.g_27_lesson_20_task_1.domain.jdbc.CommonCart;
+import de.aittr.g_27_lesson_20_task_1.domain.jdbc.CommonCustomer;
+import de.aittr.g_27_lesson_20_task_1.domain.jdbc.CommonProduct;
+import de.aittr.g_27_lesson_20_task_1.repositories.interfaces.CustomerRepository;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static de.aittr.g_27_shop_project.repositories.jdbc.DBConnector.getConnection;
+import org.springframework.stereotype.Repository;
 
 @Repository
 public class CommonCustomerRepository implements CustomerRepository {

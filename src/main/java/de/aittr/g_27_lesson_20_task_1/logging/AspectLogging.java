@@ -1,4 +1,4 @@
-package de.aittr.g_27_shop_project.logging;
+package de.aittr.g_27_lesson_20_task_1.logging;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;

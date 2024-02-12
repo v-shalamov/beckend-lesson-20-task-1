@@ -1,6 +1,6 @@
-package de.aittr.g_27_shop_project.services.interfaces;
+package de.aittr.g_27_lesson_20_task_1.services.interfaces;
 
-import de.aittr.g_27_shop_project.domain.dto.ProductDto;
+import de.aittr.g_27_lesson_20_task_1.domain.dto.ProductDto;
 
 import java.util.List;
 
