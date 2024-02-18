@@ -50,4 +50,22 @@ public class AspectLogging {
     public void afterThrowing(Exception e) {
         logger.info(String.format("Метод getActiveProductById выбросил исключение %s", e.getMessage()));
     }
+
+    @Pointcut("execution(* de.aittr.g_27_shop_project.services.jpa." +
+        "JpaProductService.*(..))")
+    public void JpaProductService() {}
+
+    @Before("JpaProductService()")
+    public void beforeJpaProductService(JoinPoint joinPoint) {
+        String methodName = joinPoint.getSignature().getName();
+        Object[] args = joinPoint.getArgs();
+        logger.info(String.format("Метод %s начал свою работу с параметрами %s", methodName, args));
+    }
+
+    @After("JpaProductService()")
+    public void afterJpaProductService(JoinPoint joinPoint) {
+        String methodName = joinPoint.getSignature().getName();
+        logger.info(String.format("Метод %s завершил свою работу", methodName));
+    }
+
 }

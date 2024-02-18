@@ -5,12 +5,10 @@ import de.aittr.g_27_lesson_20_task_1.domain.jpa.JpaProduct;
 import de.aittr.g_27_lesson_20_task_1.repositories.jpa.JpaProductRepository;
 import de.aittr.g_27_lesson_20_task_1.services.interfaces.ProductService;
 import de.aittr.g_27_lesson_20_task_1.services.mapping.ProductMappingService;
-import de.aittr.g_27_shop_project.exception_handling.exceptions.FourthTestException;
-import de.aittr.g_27_shop_project.exception_handling.exceptions.ThirdTestException;
+import de.aittr.g_27_lesson_20_task_1.exception_handling.exceptions.FourthTestException;
+import de.aittr.g_27_lesson_20_task_1.exception_handling.exceptions.ThirdTestException;
 import jakarta.transaction.Transactional;
 import java.util.List;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -18,8 +16,9 @@ public class JpaProductService implements ProductService {
 
     private JpaProductRepository repository;
     private ProductMappingService mappingService;
+
 //    private Logger logger = LogManager.getLogger(JpaProductService.class);
-    private Logger logger = LoggerFactory.getLogger(JpaProductService.class);
+//    private Logger logger = LoggerFactory.getLogger(JpaProductService.class);
 
     public JpaProductService(JpaProductRepository repository, ProductMappingService mappingService) {
         this.repository = repository;
